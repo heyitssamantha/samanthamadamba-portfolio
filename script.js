@@ -1,5 +1,4 @@
 
-// ===== TYPING =====
 const text = "I turn data into insights through analysis, dashboards, and simple web applications.";
 let i = 0;
 
@@ -11,7 +10,6 @@ function typingEffect() {
   }
 }
 
-// ===== COUNTER =====
 const counters = document.querySelectorAll(".counter");
 
 function runCounters() {
@@ -35,7 +33,6 @@ function runCounters() {
   });
 }
 
-// ===== ACTIVE NAV =====
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll(".menu a");
 
@@ -59,7 +56,6 @@ window.addEventListener("scroll", () => {
   });
 });
 
-// ===== INIT =====
 window.onload = () => {
   typingEffect();
   runCounters();
