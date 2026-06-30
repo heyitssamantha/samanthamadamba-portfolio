@@ -1,11 +1,9 @@
-/* ===== RESET ===== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ===== GLOBAL ===== */
 html {
   scroll-behavior: smooth;
 }
@@ -24,7 +22,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* subtle grid */
 body::before {
   content: "";
   position: fixed;
@@ -34,7 +31,6 @@ body::before {
   z-index: -1;
 }
 
-/* ===== LAYOUT ===== */
 .layout {
   display: flex;
 }
@@ -52,7 +48,6 @@ body::before {
   max-width: 1000px;
 }
 
-/* ===== SIDEBAR ===== */
 .sidebar {
   width: 220px;
   height: 100vh;
@@ -73,7 +68,6 @@ body::before {
   color: inherit;
 }
 
-/* NAV */
 .menu a {
   display: block;
   padding: 10px 0;
@@ -89,7 +83,6 @@ body::before {
   border-bottom: none;
 }
 
-/* hover underline animation */
 .menu a::before {
   content: "";
   position: absolute;
@@ -110,7 +103,6 @@ body::before {
   width: 100%;
 }
 
-/* ===== HERO ===== */
 .hero {
   display: flex;
   align-items: center;
@@ -147,7 +139,6 @@ body::before {
   color: #555;
 }
 
-/* socials */
 .socials a {
   font-size: 13px;
   margin-right: 14px;
@@ -159,7 +150,6 @@ body::before {
   color: #111;
 }
 
-/* ===== STATS ===== */
 .stats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -189,7 +179,6 @@ body::before {
   color: #777;
 }
 
-/* ===== SECTIONS ===== */
 section {
   margin-bottom: 80px;
 }
@@ -200,7 +189,6 @@ section {
   color: #888;
 }
 
-/* ===== STACK ===== */
 .stack-tags {
   display: flex;
   flex-wrap: wrap;
@@ -221,7 +209,6 @@ section {
   color: #fff;
 }
 
-/* ===== EXPERIENCE ===== */
 .exp-item {
   display: flex;
   gap: 30px;
@@ -239,7 +226,6 @@ section {
   transform: translateY(-3px);
 }
 
-/* DATE */
 .exp-item .year {
   min-width: 120px;
   font-size: 12px;
@@ -248,7 +234,6 @@ section {
   padding-right: 20px;
 }
 
-/* ROLE */
 .exp-item .role h4 {
   font-size: 15px;
   font-weight: 500;
@@ -260,14 +245,12 @@ section {
   color: #888;
 }
 
-/* DESCRIPTION (JUSTIFIED FIX) */
 .exp-item .desc {
   font-size: 13px;
   color: #666;
   text-align: justify;
 }
 
-/* timeline line */
 .exp-item::before {
   content: "";
   position: absolute;
@@ -278,7 +261,6 @@ section {
   background: #eee;
 }
 
-/* dot */
 .exp-item::after {
   content: "";
   position: absolute;
@@ -297,7 +279,6 @@ section {
   box-shadow: 0 0 0 4px rgba(0,0,0,0.05);
 }
 
-/* ===== PROJECTS ===== */
 .project-card {
   border: 1px solid #eee;
   border-radius: 12px;
@@ -327,7 +308,6 @@ section {
   text-align: justify;
 }
 
-/* ===== CERTIFICATIONS ===== */
 .cert-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -359,7 +339,6 @@ section {
   color: #777;
 }
 
-/* ===== MOBILE ===== */
 @media (max-width: 768px) {
 
   .layout {
@@ -413,7 +392,6 @@ section {
   }
 }
 
-/* ===== ANIMATIONS ===== */
 @keyframes fadeSlideUp {
   to {
     opacity: 1;
